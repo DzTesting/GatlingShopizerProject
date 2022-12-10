@@ -1,0 +1,1 @@
+{"param1":"74.6.0","param2":"oldCode","param3":"en-US","param4":"https://code.jivosite.com/script/widget","event":"bundle_loaded","widget_id":"zDY4X5vHaz","chat_mode":"online","site_id":140536,"device":"desktop","visitor_id":"34cd5bb4b0858c34","widget_version":"74.6.0","shard":"ya"}

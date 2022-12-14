@@ -8,12 +8,12 @@ import scala.concurrent.duration._
 
 class RecordedShopizer1 extends Simulation {
 
-  val nbUsers = Integer.getInteger("users",50)
-  val myRamp = java.lang.Long.getLong("ramp",50)
+  //val nbUsers = Integer.getInteger("users",50)
+  //val myRamp = java.lang.Long.getLong("ramp",50)
 
 
   setUp(scnShopizer.inject(
-    rampUsers(nbUsers).during(myRamp)
+    rampUsers(50).during(100)
   )).protocols(httpProtocol)
 
 }
